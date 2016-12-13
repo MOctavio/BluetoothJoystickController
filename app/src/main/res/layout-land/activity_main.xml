@@ -11,23 +11,32 @@
     android:background="#303030"
     tools:context="com.moctavio.app.bluetoothcontroller.MainActivity">
 
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : Not connected"
+        android:textSize="12sp"
+        android:textColor="#dcdcdc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/linearLayout1" />
+
+
     <RelativeLayout
         android:id="@+id/layout_joystick"
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:background="@drawable/joystick_area"
+        android:layout_marginEnd="71dp"
         android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="28dp"
-        android:layout_marginEnd="28dp">
+        android:layout_alignParentEnd="true">
 
         <RelativeLayout
             android:id="@+id/layout_logo"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/logo"
-            android:layout_marginRight="28dp"
+            android:layout_marginRight="10dp"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true">
         </RelativeLayout>
@@ -39,9 +48,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="39dp"
+        android:layout_marginStart="76dp"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="44dp">
+        android:layout_alignParentStart="true">
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"

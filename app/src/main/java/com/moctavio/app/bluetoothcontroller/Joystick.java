@@ -25,8 +25,8 @@ public class Joystick {
     public static final int STICK_LEFT = 7;
     public static final int STICK_UPLEFT = 8;
 
-    private int STICK_ALPHA = 200;
-    private int LAYOUT_ALPHA = 200;
+    private int STICK_ALPHA = 100;
+    private int LAYOUT_ALPHA = 100;
     private int OFFSET = 0;
 
     private Context mContext;
